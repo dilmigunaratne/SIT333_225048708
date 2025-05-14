@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form action="http://127.0.0.1:8082/reg" method="post">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname" ><br>
+  
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname" ><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" ><br>  
+  
+  <label for="dob">Date of Birth:</label><br>
+  <input type="date" id="dob" name="dob" ><br><br>  
+  
+  <input type="submit" value="Submit" id="submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to the registration servlet.</p>
+
+</body>
+</html>
